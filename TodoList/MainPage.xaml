@@ -47,9 +47,9 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <HorizontalStackLayout Margin="5" Padding="5"  BackgroundColor="#6C8CD5" x:Name="zalupa">
+                        <HorizontalStackLayout Margin="5" Padding="5"  BackgroundColor="#6C8CD5">
                             <Entry x:Name="labelNameDo" Text="{Binding NameDo}" FontAttributes="Bold" TextColor="Black" BackgroundColor="White" VerticalOptions="Center"/>
-                            <CheckBox  x:Name="switcher"   BackgroundColor="Gray" VerticalOptions="Center" CheckedChanged ="TaskDoneCommand"/>
+                            <CheckBox  x:Name="switcher"   BackgroundColor="Gray" VerticalOptions="Center"/>
                         </HorizontalStackLayout> 
                     </ViewCell>
                 </DataTemplate>
